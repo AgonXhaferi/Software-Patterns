@@ -1,5 +1,3 @@
-package strategy_pattern
-
 import strategy_pattern.ducks.Duck
 import strategy_pattern.strategies.SimpleFlyStrategyImpl
 import strategy_pattern.strategies.SimpleQuackStrategyImpl
