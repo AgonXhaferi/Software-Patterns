@@ -1,4 +1,4 @@
-package strategy_pattern.strategies
+package strategy_pattern.strategies.impl
 
 import strategy_pattern.strategies.interfaces.FlyStrategy
 

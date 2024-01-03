@@ -1,8 +1,8 @@
 package strategy_pattern
 
 import strategy_pattern.ducks.Duck
-import strategy_pattern.strategies.SimpleFlyStrategyImpl
-import strategy_pattern.strategies.SimpleQuackStrategyImpl
+import strategy_pattern.strategies.impl.SimpleFlyStrategyImpl
+import strategy_pattern.strategies.impl.SimpleQuackStrategyImpl
 import strategy_pattern.strategies.interfaces.FlyStrategy
 import strategy_pattern.strategies.interfaces.QuackStrategy
 
