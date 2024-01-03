@@ -18,11 +18,11 @@ class Observable(
         this.observers.forEach { it -> it.update() }
     }
 
-    override fun getValue(): Int {
+    override fun getData(): Int {
         return this.initialNumber
     }
 
-    override fun setValue(newValue: Int) {
+    override fun setData(newValue: Int) {
         this.initialNumber = newValue
 
         notifyObservers()

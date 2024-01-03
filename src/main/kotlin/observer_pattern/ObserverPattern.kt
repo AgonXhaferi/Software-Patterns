@@ -14,6 +14,6 @@ fun main(){
     observable.registerObserver(observer)
     observable.registerObserver(observer2)
 
-    observable.setValue(10)
-    observable.setValue(50)
+    observable.setData(10)
+    observable.setData(50)
 }
