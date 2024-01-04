@@ -26,3 +26,7 @@ the decorator pattern is introduced.
 
 After the implementation is finished keep in mind its over-engineered, you could just
 make a list of decorators and just sum that up.
+
+
+The example from the book is related to java streams/ InputStreams LineNumber -> Buffer -> FileInputStream etc etc,
+we could look into this. (ask chatGPT about this.)
