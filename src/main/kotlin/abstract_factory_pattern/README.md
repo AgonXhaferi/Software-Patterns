@@ -15,3 +15,5 @@ I also saw another video which was a bit more implementation specific from
 Derek Banas, I'm going to check this out more thoroughly though.
 
 And make comparisons between the two videos, cause I feel that they use it a bit differently as well.
+
+_Need to add some more code examples for this one._
