@@ -4,7 +4,8 @@ import observer_pattern.interfaces.IObservable
 import observer_pattern.interfaces.IObserver
 
 class Observable(
-    private var observers: MutableList<IObserver> = mutableListOf(), private var initialNumber: Int = 0
+    private val observers: MutableList<IObserver> = mutableListOf(),
+    private var initialNumber: Int = 0
 ) : IObservable<Int> {
     override fun registerObserver(observer: IObserver) {
         this.observers.add(observer)
